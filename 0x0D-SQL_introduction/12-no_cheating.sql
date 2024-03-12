@@ -2,4 +2,4 @@
 -- You are not allowed to use Bob’s id value, only the name field
 -- The database name will be passed as an argument of the mysql command
 
-UPDATE Bob score TO 10 FROM  second_table;
+UPDATE name, Score TO bob, 10  FROM  second_table;
