@@ -4,8 +4,8 @@ with the condition
 HTTP status code >= 400 brings an error
 and the resulting value error is printed """
 
-import syt
-import request
+import sys
+import requests
 
 if __name__ == "__main__":
     url = syt.argv[1]
