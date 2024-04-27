@@ -1,8 +1,8 @@
 #!/usr/bin/python3
-"""Script that takes in url,sends a url request and displays the body
-with the condition
-HTTP status code >= 400 brings an error
-and the resulting value error is printed """
+"""Sends a request to a given URL and displays the response body.
+Usage: ./7-error_code.py <URL>
+  - Handles HTTP errors.
+  """
 
 import sys
 import requests
